@@ -1,0 +1,71 @@
+/* Diseño Formulario "NUEVO CAMION" */
+
+.form_register{
+	width: 450px;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+}
+.form_register h1{
+	color: #06095F;
+	margin: auto;
+	text-align: center;
+}
+hr{
+	border: 0;
+	background: #CCC;
+	height: 1px;
+	margin: 10px 0;
+	display: block;
+}
+form{
+	background: #FFF;
+	margin: auto;
+	padding: 20px 50px;
+	border: 1px solid #d1d1d1;
+	justify-content: center;
+	align-items: center;
+	width: 450px;
+}
+label{
+	display: block;
+	font-size: 12pt;
+	font-family: sans-serif;
+	margin: 15px auto 5px auto;
+}
+input, select{
+	display: block;
+	width: 100%;
+	font-size: 11pt;
+	padding: 5px;
+	border: 1px solid #85929e;
+	border-radius: 5px;
+}
+.notItemOne option:first-child{
+	display: none;
+}
+.btn-guardar{
+	font-size: 12pt;
+	background: #C52603;
+	padding: 20px;
+	color: #FFF;
+	letter-spacing: 1px;
+	border: 0;
+	cursor: pointer;
+	margin: 15px auto;
+}
+.alert{
+	width: 100%;
+	background: #F6FBA6;
+	border-radius: 6px;
+	margin: 20px auto;
+}
+.msg_error{
+	color: #FF0000;
+}
+.msg_guardar{
+	color: #FF0000;
+}
+.alert p{
+	padding: 10px;
+}
